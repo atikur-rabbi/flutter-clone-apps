@@ -36,3 +36,5 @@ gh_owner: Owner of the GitHub account.
 gh_repo: Name of the repo within the above account.
 gh_path: Path to a dartpad_metadata.yaml file within the repo.
 gh_ref: (optional) Branch to use when loading the file. Defaults to master.
+
+https://dartpad.dev/embed-flutter.html?gh_owner=atikur-rabbi&gh_repo=clone-apps&gh_path=apps/demo
