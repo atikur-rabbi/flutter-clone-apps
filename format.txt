@@ -30,6 +30,10 @@ Image.network('https://picsum.photos/250?image=9')
 
 Image.network('https://atikur-rabbi.github.io/clone-apps/apps/bkash/assets/profile.jpg')
 
+Image.network('https://atikur-rabbi.github.io/clone-apps/apps/music_player/assets/images/ariana_grande_artist_photo.jpg')
+
+Image.network(imageurl + 'ariana_grande_artist_photo.jpg')
+
 
 dartpad_metadata.yaml (MANDATORY)
 hint.txt (OPTIONAL)
