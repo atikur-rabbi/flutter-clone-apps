@@ -34,6 +34,7 @@ Image.network('https://atikur-rabbi.github.io/clone-apps/apps/music_player/asset
 Image.network('https://atikur-rabbi.github.io/clone-apps/apps/food-ui/assets/images/plate1.png')
 
 Image.network(imageurl + 'ariana_grande_artist_photo.jpg')
+NetworkImage(imageurl + 'ariana_grande_cover_no_tears_left_to_cry.jpg'), 
 
 
 dartpad_metadata.yaml (MANDATORY)
