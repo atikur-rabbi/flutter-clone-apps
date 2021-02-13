@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+var imageurl = 'https://atikur-rabbi.github.io/clone-apps/apps/bkash/';
+
 void main() {
   runApp(MyApp());
 }
@@ -216,7 +218,7 @@ class AppBarWidget extends StatelessWidget {
                 child: CircleAvatar(
                   radius: 28.0,
                   backgroundColor: Colors.grey[200],
-                  backgroundImage: AssetImage('assets/profile.jpg'),
+                  backgroundImage: NetworkImage(imageurl + 'assets/profile.jpg'),
                 ),
               ),
               SizedBox(width: 14.0),
@@ -224,7 +226,7 @@ class AppBarWidget extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   SizedBox(height: 8.0),
-                  Text('Sohel Rana',
+                  Text('Jhon Doe',
                       style: TextStyle(
                           color: Colors.white,
                           fontSize: 18.0,
@@ -248,8 +250,7 @@ class AppBarWidget extends StatelessWidget {
                             padding: EdgeInsets.all(2.0),
                             child: CircleAvatar(
                               backgroundColor: Colors.pink,
-                              backgroundImage:
-                                  AssetImage('assets/currency.png'),
+                              backgroundImage: NetworkImage(imageurl + 'assets/currency.png'),
                             ),
                           ),
                         ),
@@ -271,7 +272,7 @@ class AppBarWidget extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.only(top: 12.0, right: 12.0),
           child: Container(
-              width: 50, height: 50, child: Image.asset('assets/fly.png')),
+              width: 50, height: 50, child: Image.network(imageurl + 'assets/fly.png')), // Image.asset('assets/fly.png')),
         )
       ],
     );
@@ -357,7 +358,7 @@ class MenuWidget extends StatelessWidget {
       color: Colors.white,
       child: Column(
         children: [
-          Image.asset(image),
+          Image.network(imageurl + image),
           SizedBox(height: 5.0),
           Text(title,
               style: TextStyle(color: Colors.black45),
@@ -385,7 +386,7 @@ class CardWidget extends StatelessWidget {
       color: Colors.white,
       child: Column(
         children: [
-          Container(height: 64, child: Image.asset(image)),
+          Container(height: 64, child: Image.network(imageurl + image)),
           SizedBox(height: 5.0),
           Text(title,
               style: TextStyle(color: Colors.black45),

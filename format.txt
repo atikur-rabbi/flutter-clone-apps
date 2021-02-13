@@ -24,6 +24,11 @@ https://dartpad.dev/embed-flutter.html?gh_owner=atikur-rabbi&gh_repo=dartpad-ui&
 https://dartpad.dev/embed-flutter.html?id=b8399786acb13446752f0b22dc0d4f6b&theme=dark&run=true&split=20
 
 
+https://atikur-rabbi.github.io/clone-apps/apps/bkash/assets/profile.jpg
+
+Image.network('https://picsum.photos/250?image=9')
+
+Image.network('https://atikur-rabbi.github.io/clone-apps/apps/bkash/assets/profile.jpg')
 
 
 dartpad_metadata.yaml (MANDATORY)
